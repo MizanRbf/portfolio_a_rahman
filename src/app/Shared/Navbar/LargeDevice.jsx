@@ -28,9 +28,9 @@ const LargeDevice = () => {
         </li>
       </ul>
       <a
-        href="https://drive.google.com/file/d/1L-R_ksEAxTKKe-oNtp9MLtd8iSFhb2ga/view?usp=drive_link"
+        href=""
         target="blank"
-        className="bg-primary px-4 py-2 rounded-xs hover:bg-[#4c8626] cursor-pointer flex items-center gap-1"
+        className="bg-primary px-4 py-2 rounded-xs hover:bg-secondary cursor-pointer flex items-center gap-1"
       >
         Resume
         <FaDownload size={14} />

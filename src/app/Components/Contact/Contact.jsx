@@ -3,7 +3,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-[#000] px-4">
+    <div className="bg-[#000] px-4 pb-30">
       <div className="max-w-[1300px] mx-auto">
         {/* Title & description */}
         <div className="text-center">
@@ -22,7 +22,7 @@ const Contact = () => {
           <div className="mb-3">
             <p className="font-semibold ">Your Name</p>
             <input
-              className="border rounded-lg py-2 w-full pl-4  border-[#023ca8]"
+              className="border rounded-lg py-2 w-full pl-4  border-primary"
               type="text"
               name="name"
               placeholder="Write your name here.."
@@ -32,7 +32,7 @@ const Contact = () => {
           <div className="mb-3">
             <p className="font-semibold ">Your Email</p>
             <input
-              className="border rounded-lg py-2 w-full pl-4  border-[#023ca8]"
+              className="border rounded-lg py-2 w-full pl-4  border-primary"
               type="email"
               name="email"
               placeholder="Write your email here.."
@@ -42,13 +42,13 @@ const Contact = () => {
           <div className="mb-3">
             <p className="font-semibold">Text Message</p>
             <textarea
-              className="border rounded-lg pl-4 w-full h-30 bg-blue-100 border-blue-300"
+              className="border rounded-lg pl-4 w-full h-30 border-primary"
               name="text"
               placeholder="Text here"
             ></textarea>
           </div>
           {/* Button */}
-          <button className="border rounded-lg py-2 w-full bg-[#023ca8] text-white font-semibold hover:bg-[#003a44] hover:border-blue-300  cursor-pointer mb-10">
+          <button className="border rounded-lg py-2 w-full bg-primary text-white font-semibold hover:bg-secondary  cursor-pointer mb-10">
             Send
           </button>
         </div>

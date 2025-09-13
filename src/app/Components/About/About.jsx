@@ -3,15 +3,15 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-[#000] px-4 ">
+    <div className="bg-[#012741] px-4 ">
       <div className="max-w-[1300px] mx-auto">
         {/* Title */}
-        <div className="flex items-center pt-20 mb-10 justify-center">
+        <div className="flex items-center pt-20  justify-center">
           <Title title="About Me"></Title>
         </div>
 
-        <div className=" px-4 rounded-lg border  flex-col md:flex-row justify-between">
-          <p className="py-10">
+        <div className=" px-4 rounded-lg  flex flex-col md:flex-row justify-between items-center  p-10 gap-3">
+          <p className=" text-white text-justify w-full">
             I'm Md Abdur Raman, a dedicated Performance Marketing & Tracking
             Specialist with a sharp focus on driving measurable growth through
             strategic advertising and precise analytics. I specialize in Google
@@ -28,11 +28,13 @@ const About = () => {
             looking to elevate your marketing with performance-backed strategies
             and reliable analytics, you're in the right place.
           </p>
-          <img
-            className="w-[400px] h-[600pxn]"
-            src="/assets/about.png"
-            alt=""
-          />
+          <div className="w-full  flex items-center justify-center">
+            <img
+              className=" w-[400px] h-[600pxn] "
+              src="/assets/banner.png"
+              alt="Image"
+            />
+          </div>
         </div>
       </div>
     </div>

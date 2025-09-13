@@ -8,9 +8,9 @@ const Banner = () => {
 
       {/* Content */}
       <div className="text-center mb-10">
-        <span className="bg-white  px-3 rounded-xs ">Assalamu Alaikum !</span>
+        <span className="bg-white  px-3 rounded-xs">Assalamu Alaikum !</span>
         {/* Title */}
-        <div className="flex justify-center items-center gap-4">
+        <div className="flex justify-center items-center gap-4 mt-2">
           <h1 className="text-2xl md:text-4xl font-bold text-white">
             I'm <span className="text-primary">A.Rahman</span>
           </h1>
